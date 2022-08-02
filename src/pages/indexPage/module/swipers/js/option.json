@@ -1,0 +1,259 @@
+[
+  {
+    "optionType": "drawBarLine",
+    "option": {
+      "color": ["#3494ba", "#c23531", "#45aeae", "#88d9ff"],
+      "tooltip": {
+        "trigger": "axis",
+        "axisPointer": {
+          "type": "cross",
+          "crossStyle": {
+            "color": "#999"
+          }
+        }
+      },
+      "toolbox": {
+        "feature": {
+          "saveAsImage": { "show": true }
+        }
+      },
+      "title": {
+        "show": true,
+        "x": "center",
+        "y": "8px",
+        "text": "",
+        "textStyle": {
+          "fontSize": 20
+        }
+      },
+      "legend": {
+        "x": "center",
+        "y": "bottom",
+        "textStyle": {
+          "fontSize": 14
+        },
+        "data": []
+      },
+      "xAxis": [
+        {
+          "type": "category",
+          "data": [],
+          "axisPointer": {
+            "type": "shadow"
+          },
+          "axisLabel": {
+            "textStyle": {
+              "fontSize": 16
+            }
+          }
+        }
+      ],
+      "yAxis": [
+        {
+          "type": "value",
+          "name": "",
+          "nameTextStyle": {
+            "fontSize": 16
+          },
+          "axisLabel": {
+            "showMinLabel": false,
+            "showMaxLabel": false,
+            "textStyle": {
+              "fontSize": 16
+            }
+          }
+        },
+        {
+          "type": "value",
+          "name": "",
+          "nameTextStyle": {
+            "fontSize": 16
+          },
+          "axisLabel": {
+            "textStyle": {
+              "fontSize": 16
+            }
+          }
+        }
+      ],
+      "series": []
+    }
+  },
+  {
+    "optionType": "drawMoreBar",
+    "option": {
+      "color": ["#3494ba", "#45aeae", "#88d9ff", "#31e3f3"],
+      "tooltip": {
+        "trigger": "axis",
+        "axisPointer": {
+          "type": "cross",
+          "crossStyle": {
+            "color": "#999"
+          }
+        }
+      },
+      "toolbox": {
+        "feature": {
+          "saveAsImage": { "show": true }
+        }
+      },
+      "title": {
+        "show": true,
+        "x": "center",
+        "y": "8px",
+        "text": "",
+        "textStyle": {
+          "fontSize": 18
+        }
+      },
+      "legend": {
+        "x": "center",
+        "y": "bottom",
+        "textStyle": {
+          "fontSize": 14
+        },
+        "data": []
+      },
+      "xAxis": [
+        {
+          "type": "category",
+          "data": [],
+          "axisPointer": {
+            "type": "shadow"
+          },
+          "axisLabel": {
+            "textStyle": {
+              "fontSize": 16
+            }
+          }
+        }
+      ],
+      "yAxis": [
+        {
+          "type": "value",
+          "name": "",
+          "nameTextStyle": {
+            "fontSize": 16
+          },
+          "axisLabel": {
+            "textStyle": {
+              "fontSize": 16
+            }
+          }
+        }
+      ],
+      "series": []
+    }
+  },
+  {
+    "optionType": "drawSingleBar",
+    "option": {
+      "color": ["#3494ba", "#45aeae", "#88d9ff", "#31e3f3"],
+      "tooltip": {
+        "trigger": "axis",
+        "axisPointer": {
+          "type": "cross",
+          "crossStyle": {
+            "color": "#999"
+          }
+        }
+      },
+      "toolbox": {
+        "feature": {
+          "saveAsImage": { "show": true }
+        }
+      },
+      "title": {
+        "show": true,
+        "x": "center",
+        "y": "8px",
+        "text": "",
+        "textStyle": {
+          "fontSize": 18
+        }
+      },
+      "legend": {
+        "x": "center",
+        "y": "bottom",
+        "textStyle": {
+          "fontSize": 14
+        },
+        "data": []
+      },
+      "xAxis": [
+        {
+          "type": "category",
+          "data": [],
+          "axisPointer": {
+            "type": "shadow"
+          },
+          "axisLabel": {
+            "textStyle": {
+              "fontSize": 16
+            }
+          }
+        }
+      ],
+      "yAxis": [
+        {
+          "type": "value",
+          "name": "",
+          "nameTextStyle": {
+            "fontSize": 16
+          },
+          "min": 0,
+          "axisLabel": {
+            "textStyle": {
+              "fontSize": 16
+            }
+          }
+        }
+      ],
+      "series": []
+    }
+  },
+  {
+    "optionType": "drawLine",
+    "option": {
+      "color": ["#3494ba", "#c23531", "#45aeae", "#88d9ff"],
+      "xAxis": {
+        "type": "category",
+        "data": []
+      },
+      "yAxis": [
+        {
+          "type": "value",
+          "name": "",
+          "nameTextStyle": {
+            "fontSize": 16
+          },
+          "axisLabel": {
+            "showMinLabel": false,
+            "showMaxLabel": false,
+            "textStyle": {
+              "fontSize": 16
+            }
+          }
+        }
+      ],
+      "legend": {
+        "x": "center",
+        "y": "bottom",
+        "textStyle": {
+          "fontSize": 14
+        },
+        "data": []
+      },
+      "title": {
+        "show": true,
+        "x": "center",
+        "y": "8px",
+        "text": "",
+        "textStyle": {
+          "fontSize": 18
+        }
+      },
+      "series": []
+    }
+  }
+]
